@@ -9,7 +9,7 @@ from fastapi.staticfiles import StaticFiles
 
 # Try to import core functions dynamically (graceful fallback)
 try:
-    from core.solar import solar_longitude_from_datetime  # type: ignore
+    from astronomical_watch.core.solar import solar_longitude_from_datetime  # type: ignore
 except Exception:  # pragma: no cover
     solar_longitude_from_datetime = None  # type: ignore
 

@@ -15,7 +15,7 @@ from datetime import datetime, timezone
 from datetime import datetime, timezone, timedelta
 from typing import Optional
 
-from core.solar import solar_longitude_from_datetime
+from astronomical_watch.core.solar import solar_longitude_from_datetime
 
 
 def compute_vernal_equinox(year: int) -> datetime:
