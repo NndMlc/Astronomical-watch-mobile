@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "astronomical_watch_mobile"
+version = "0.1.0"
+description = "Astronomical Watch mobile app (Android/iOS, Kivy)"
+authors = [{name = "Tvoje Ime", email = "tvoj@email.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "kivy>=2.3.0",
+    "kivy-garden",
+    # Dodaj ostale zavisnosti (npr. matplotlib, requests...) prema potrebi
+]
