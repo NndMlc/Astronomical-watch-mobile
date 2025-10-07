@@ -1,3 +1,4 @@
+from astronomical_watch import lang
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.label import Label
 from kivy.uix.button import Button
@@ -8,6 +9,11 @@ from kivy.uix.gridlayout import GridLayout
 from kivy.properties import NumericProperty, StringProperty, BooleanProperty, ListProperty
 from kivy.clock import Clock
 from kivy.core.window import Window
+from astronomical_watch.lang.lang_config import save_language, load_language
+from astronomical_watch.lang.translations import tr
+
+# Prilikom starta aplikacije
+self.selected_language = load_language()  # default: "en"
 
 # Pretpostavljamo da imaš core funkcije za izračunavanje dies, miliDies, vreme itd.
 from astronomical_watch.core.timeframe import astronomical_time
@@ -44,7 +50,7 @@ class WidgetMode(Screen):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.layout = BoxLayout(orientation='vertical', padding=30, spacing=20)
-        self.title = Label(text="Astronomical Watch", font_size='24sp', size_hint=(1, .2))
+        self.title = Label(text=tr("title", self.selected_language), font_size='24sp', size_hint=(1, .2))
         self.dies_label = Label(font_size='56sp', size_hint=(1, .3), halign="center", valign="middle")
         self.progress_bar = ProgressBar(max=100, size_hint=(1, .08))
         self.alert_label = Label(text="", color=(0, 1, 0, 1), font_size='18sp', size_hint=(1, .1))
@@ -97,7 +103,7 @@ class NormalMode(Screen):
         # Top bar: title, back, language
         top_bar = BoxLayout(orientation='horizontal', size_hint=(1, 0.13))
         back_btn = Button(text="<", size_hint=(.15, 1), on_press=self.back_to_widget)
-        title = Label(text="Astronomical Watch", font_size='20sp')
+        title = Label(text=tr("title", self.selected_language), font_size='20sp')
         lang_btn = Button(text="🌐", size_hint=(.15, 1), on_press=self.show_languages)
         top_bar.add_widget(back_btn)
         top_bar.add_widget(title)
@@ -169,8 +175,16 @@ class NormalMode(Screen):
 
     def select_language(self, lang):
         self.selected_language = lang
-        if hasattr(self, '_lang_popup'):
-            self._lang_popup.dismiss()
+        save_language(lang)
+        self.refresh_ui()
+
+    def refresh_ui(self):
+        # Primer za labelu i dugmad
+        self.title_label.text = lang.tr("title", self.selected_language)
+        self.explanation_button.text = tr("explanation", self.selected_language)
+        self.comparison_button.text = tr("comparison", self.selected_language)
+        self.calculation_button.text = tr("calculations", self.selected_language)
+        # ... i sve ostale koje postoje na ekranu
 
 class MainScreenManager(ScreenManager):
     pass
