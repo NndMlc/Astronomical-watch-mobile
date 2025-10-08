@@ -13,8 +13,6 @@ from kivy.core.window import Window
 from astronomical_watch.lang.lang_config import save_language, load_language
 from astronomical_watch.lang.translations import tr
 
-# Prilikom starta aplikacije
-self.selected_language = load_language()  # default: "en"
 
 # Pretpostavljamo da imaš core funkcije za izračunavanje dies, miliDies, vreme itd.
 from astronomical_watch.core.timeframe import astronomical_time
