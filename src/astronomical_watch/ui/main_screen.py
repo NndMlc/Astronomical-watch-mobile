@@ -134,8 +134,8 @@ class NormalMode(Screen):
 
         # Buttons for card selection
         card_buttons = BoxLayout(orientation='horizontal', size_hint=(1, .17))
-        for card in ["Explanation", "Comparison", "Calculation"]:
-            card_buttons.add_widget(Button(text=card))
+        for card_key in ["explanation", "comparison", "calculations"]:
+            card_buttons.add_widget(Button(text=tr(card_key, self.selected_language)))
         main_layout.add_widget(card_buttons)
 
         self.add_widget(main_layout)
