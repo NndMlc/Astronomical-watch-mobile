@@ -3,6 +3,12 @@ Astronomski Sat — Objašnjenje
 
 Astronomski Sat je sat koji prikazuje vreme zasnovano na pravim astronomskim ciklusima, umesto klasičnog kalendarskog vremena. Ovakav sat je namenjen svima koji žele da razumeju i prate vreme prema kretanju Zemlje oko Sunca, bez konvencionalnih ograničenja poput kalendara, vremenskih zona i lokalnog vremena.
 
+Šta je Dies?
+------------
+Dies je reč latinskog porekla koja znači "dan". Za razliku od klasičnog dana koji je lokalnog karaktera — gde svaka vremenska zona ima poseban početak dana kada je Sunce na suprotnoj strani planete — **Dies je globalnog karaktera**. Dies počinje kada je podne iznad Beringovog mora, koje predstavlja prirodnu podelu između istočne i zapadne hemisfere. Dies je svakome na planeti **isti u istom trenutku**.
+
+**MiliDies** je podela Diesa na hiljadu delova. Promena miliDiesa od nule do hiljadu prati kretanje Sunca od istoka ka zapadu dok se ne vrati na istu tačku iznad referentnog meridijana. Prvi Dies (Dies 0) počinje da se broji od trenutka **prolećne ravnodnevnice**, koja označava astronomski početak nove godine.
+
 Zašto godina počinje od prolećne ravnodnevnice?
 -------------------------------------------------
 Za razliku od standardnog kalendara gde godina počinje 1. januara, astronomska godina na ovom satu počinje od trenutka kada Sunce pređe nebeski ekvator — prolećne ravnodnevnice. Ovaj trenutak je prirodna nulta tačka za astronomske cikluse, jer označava početak novog "solarnog kruga" i najbolje prati stvarne promene u dužini dana i noći. To je period kada dan i noć traju približno isto, što ga čini univerzalnim polazištem za merenje vremena.
@@ -36,7 +42,7 @@ Astronomski Sat koristi više naprednih astronomskih funkcija:
 - Dinamička promena boja interfejsa (gradient) u skladu sa položajem Sunca na nebu.
 - Prikaz odbrojavanja do sledeće prolećne ravnodnevnice, sa specijalnim efektima vatrometa u trenutku ekvinoksa.
 
-Univerzalno vreme — Astronomski Sat uporedo sa standardnim satm
+Univerzalno vreme — Astronomski Sat uporedo sa standardnim satom
 ----------------------------------------------------------
 Jedna od najvažnijih razlika je što Astronomski Sat prikazuje **isto vreme za sve na planeti**. Vreme je globalno definisano prema astronomskim ciklusima i ne zavisi od lokalnih vremenskih zona. Bez obzira gde se nalazite, na severu ili jugu, istoku ili zapadu, sat prikazuje identičan broj Dies i miliDies za svakog korisnika u istom trenutku. Standardni sat, s druge strane, koristi lokalno vreme i vremenske zone, pa se vreme razlikuje od mesta do mesta, dok Astronomski Sat ukida te razlike i stvara jedinstven univerzalni sistem.
 
@@ -51,6 +57,8 @@ Standardno vreme je proizvod istorijskih, geografskih i društvenih dogovora. Vr
 Praktična upotreba
 ------------------
 Astronomski Sat je koristan za naučnike, astronome, edukatore, ljubitelje prirode, kao i za svakoga ko želi da se uskladi sa univerzalnim ritmovima Zemlje. Pruža osećaj povezanosti sa planetom i kosmičkim događanjima, omogućava lakše globalno razumevanje vremena bez zbunjujućih lokalnih razlika, i podstiče korisnike da razmišljaju o vremenu kao o univerzalnom, prirodnom fenomenu.
+
+Najveća korist od Astronomskog Sata je njegova **globalnost**. Pošto je u svakom trenutku svakome na planeti isti, može pomoći da se usklade razna dešavanja, kako na internetu, tako i van njega. Razne akcije i događaji kojima je potreban sinhronitet mogu da se usklade pomoću Astronomskog Sata — bilo da se radi o međunarodnim konferencijama, virtuelnim događajima, lansiranju globalnih projekata ili koordinaciji naučnih istraživanja. Umesto prevodjenja vremenskih zona i računanja lokalnih razlika, Astronomski Sat pruža jedan, jasan i univerzalan vremenski sistem koji svi mogu koristiti istovremeno.
 
 Zašto pratiti vreme astronomski?
 ---------------------------------

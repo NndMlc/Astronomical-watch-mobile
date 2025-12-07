@@ -3,6 +3,12 @@ Astronomik Saat — Açıklama
 
 Astronomik Saat, zamanı geleneksel takvim zamanından ziyade gerçek astronomik döngülere göre gösteren bir saattir. Bu saat, zamanı Dünya'nın Güneş etrafındaki hareketine göre anlamak ve takip etmek isteyen herkes için tasarlanmıştır; takvimler, saat dilimleri ve yerel saat gibi geleneksel sınırlamalar olmadan.
 
+Dies Nedir?
+------------
+Dies, Latince kökenli bir kelime olup "gün" anlamına gelir. Klasik günün yerel karakterde olmasından farklı olarak — her saat diliminin Güneş gezegenin karşı tarafındayken ayrı bir gün başlangıcı vardır — **Dies küresel karakterdedir**. Dies, Bering Denizi üzerinde öğle olduğunda başlar; bu deniz, doğu ve batı yarımküreleri arasında doğal bir ayrım oluşturur. Dies, gezegendeki herkes için **aynı anda aynıdır**.
+
+**MiliDies**, Dies'in bin parçaya bölünmesidir. MiliDies'in sıfırdan bine değişimi, Güneşin doğudan batıya hareketini takip eder ve referans meridyenin üzerindeki aynı noktaya geri dönene kadar devam eder. İlk Dies (Dies 0), yeni yılın astronomik başlangıcını işaret eden **ilkbahar ekinoksu** anından itibaren sayılmaya başlar.
+
 Yıl neden ilkbahar ekinoksunda başlar?
 -------------------------------------------------
 Standart takvimde yıl 1 Ocak'ta başlarken, bu saatte astronomik yıl, Güneş'in gök ekvatorunu geçtiği anda — yani ilkbahar ekinoksunda — başlar. Bu an, astronomik döngüler için doğal bir sıfır noktadır; yeni bir "güneş çevriminin" başlangıcını işaret eder ve gün ile gece uzunluğundaki gerçek değişiklikleri en iyi şekilde yansıtır. Bu dönem, gün ve gecenin yaklaşık olarak eşit olduğu zamandır, bu yüzden zamanı ölçmek için evrensel bir başlangıç noktasıdır.
@@ -51,6 +57,8 @@ Standart zaman; tarihi, coğrafi ve sosyal uzlaşmaların ürünüdür. Saat dil
 Pratik kullanım
 ------------------
 Astronomik Saat; bilim insanları, astronomlar, eğitimciler, doğa tutkunları ve Dünya'nın evrensel ritimleriyle uyumlu olmak isteyen herkes için faydalıdır. Gezegen ve kozmik olaylarla bağlantı hissi sunar, karmaşık yerel farklılıklar olmadan zamanı küresel olarak anlamayı kolaylaştırır ve kullanıcıları zamanı evrensel, doğal bir olgu olarak düşünmeye teşvik eder.
+
+Astronomik Saat'in en büyük faydası, **küresel niteliğidir**. Her an gezegendeki herkes için aynı olduğundan, hem internette hem de internet dışında çeşitli olayların koordinasyonuna yardımcı olabilir. Senkronizasyon gerektiren çeşitli eylemler ve etkinlikler Astronomik Saat yardımıyla koordine edilebilir — ister uluslararası konferanslar, sanal etkinlikler, küresel projelerin lansmanı veya bilimsel araştırmaların koordinasyonu olsun. Saat dilimlerini çevirmek ve yerel farklılıkları hesaplamak yerine, Astronomik Saat herkesin aynı anda kullanabileceği tek, net ve evrensel bir zaman sistemi sunar.
 
 Zamanı astronomik olarak neden takip etmeli?
 ---------------------------------

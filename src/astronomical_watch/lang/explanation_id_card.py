@@ -3,6 +3,12 @@ Jam Astronomi — Penjelasan
 
 Jam Astronomi adalah jam yang menampilkan waktu berdasarkan siklus astronomi nyata, bukan waktu kalender konvensional. Jam ini dirancang untuk siapa saja yang ingin memahami dan mengikuti waktu sesuai dengan pergerakan Bumi mengelilingi Matahari, tanpa batasan konvensional seperti kalender, zona waktu, dan waktu lokal.
 
+Apa itu Dies?
+------------
+Dies adalah kata yang berasal dari bahasa Latin yang berarti "hari". Berbeda dengan hari klasik yang bersifat lokal — di mana setiap zona waktu memiliki awal hari yang berbeda ketika Matahari berada di sisi berlawanan planet — **Dies bersifat global**. Dies dimulai ketika tengah hari di atas Laut Bering, yang merupakan pembagian alami antara belahan bumi timur dan barat. Dies adalah **sama untuk semua orang di planet ini pada saat yang sama**.
+
+**MiliDies** adalah pembagian Dies menjadi seribu bagian. Perubahan miliDies dari nol hingga seribu mengikuti pergerakan Matahari dari timur ke barat hingga kembali ke titik yang sama di atas meridian referensi. Dies pertama (Dies 0) mulai dihitung dari saat **ekuinoks musim semi**, yang menandai awal tahun baru secara astronomi.
+
 Mengapa tahun dimulai dari ekuinoks musim semi?
 -------------------------------------------------
 Berbeda dengan kalender standar yang memulai tahun pada 1 Januari, tahun astronomi pada jam ini dimulai pada saat Matahari melintasi ekuator langit — yaitu ekuinoks musim semi. Momen ini adalah titik nol alami untuk siklus astronomi, menandai awal "lingkaran surya" baru dan paling baik mencerminkan perubahan nyata dalam panjang siang dan malam. Ini adalah periode ketika siang dan malam hampir sama panjang, menjadikannya titik awal universal untuk pengukuran waktu.
@@ -51,6 +57,8 @@ Waktu standar adalah hasil kesepakatan historis, geografis, dan sosial. Zona wak
 Penggunaan praktis
 ------------------
 Jam Astronomi berguna bagi ilmuwan, astronom, pendidik, pecinta alam, serta siapa pun yang ingin selaras dengan ritme universal Bumi. Jam ini memberikan rasa keterhubungan dengan planet dan peristiwa kosmik, memudahkan pemahaman waktu secara global tanpa perbedaan lokal yang membingungkan, dan mendorong pengguna untuk memandang waktu sebagai fenomena universal dan alami.
+
+Manfaat terbesar dari Jam Astronomi adalah sifat **globalnya**. Karena pada setiap saat sama untuk semua orang di planet ini, jam ini dapat membantu menyelaraskan berbagai acara, baik online maupun offline. Berbagai tindakan dan acara yang memerlukan sinkronisasi dapat diselaraskan dengan menggunakan Jam Astronomi — baik itu konferensi internasional, acara virtual, peluncuran proyek global, atau koordinasi penelitian ilmiah. Alih-alih menerjemahkan zona waktu dan menghitung perbedaan lokal, Jam Astronomi menyediakan satu sistem waktu yang jelas dan universal yang dapat digunakan semua orang secara bersamaan.
 
 Mengapa mengikuti waktu secara astronomi?
 ---------------------------------

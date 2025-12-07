@@ -3,6 +3,12 @@ Montre Astronomique — Explication
 
 La montre astronomique est une horloge qui affiche le temps basé sur les cycles astronomiques réels, et non sur le temps calendaire conventionnel. Cette montre est conçue pour toute personne souhaitant comprendre et suivre le temps selon le mouvement de la Terre autour du Soleil, sans les contraintes conventionnelles des calendriers, des fuseaux horaires et de l'heure locale.
 
+Qu'est-ce que Dies ?
+------------
+Dies est un mot d'origine latine qui signifie « jour ». Contrairement au jour classique qui est de caractère local — où chaque fuseau horaire a un début de journée particulier lorsque le Soleil est du côté opposé de la planète — **Dies est de caractère global**. Dies commence lorsqu'il est midi au-dessus de la mer de Béring, qui représente la division naturelle entre l'hémisphère oriental et occidental. Dies est **le même pour tous sur la planète au même instant**.
+
+**MiliDies** est la division de Dies en mille parties. Le changement de miliDies de zéro à mille suit le mouvement du Soleil d'est en ouest jusqu'à ce qu'il revienne au même point au-dessus du méridien de référence. Le premier Dies (Dies 0) commence à être compté à partir du moment de **l'équinoxe de printemps**, qui marque le début astronomique de la nouvelle année.
+
 Pourquoi l'année commence-t-elle à l'équinoxe de printemps ?
 -------------------------------------------------
 Contrairement au calendrier standard où l'année débute le 1er janvier, l'année astronomique de cette montre commence au moment où le Soleil traverse l'équateur céleste — l'équinoxe de printemps. Ce moment est un point zéro naturel pour les cycles astronomiques, marquant le départ d'un nouveau "cycle solaire" et reflétant le mieux les changements réels dans la durée du jour et de la nuit. C'est la période où le jour et la nuit sont approximativement égaux, ce qui en fait un point de départ universel pour la mesure du temps.
@@ -51,6 +57,8 @@ Le temps standard est le produit d'accords historiques, géographiques et sociau
 Utilisation pratique
 ------------------
 La montre astronomique est utile pour les scientifiques, les astronomes, les éducateurs, les amoureux de la nature et pour toute personne souhaitant s'aligner sur les rythmes universels de la Terre. Elle offre un sentiment de connexion avec la planète et les événements cosmiques, facilite la compréhension mondiale du temps sans les différences locales déroutantes, et encourage les utilisateurs à considérer le temps comme un phénomène universel et naturel.
+
+Le plus grand avantage de la montre astronomique est sa **globalité**. Puisqu'elle est identique pour tous sur la planète à tout moment, elle peut aider à coordonner divers événements, à la fois sur internet et en dehors. Diverses actions et événements nécessitant une synchronisation peuvent être coordonnés grâce à la montre astronomique — qu'il s'agisse de conférences internationales, d'événements virtuels, de lancements de projets globaux ou de coordination de recherches scientifiques. Au lieu de convertir les fuseaux horaires et de calculer les différences locales, la montre astronomique fournit un système de temps unique, clair et universel que tous peuvent utiliser simultanément.
 
 Pourquoi suivre le temps de manière astronomique ?
 ---------------------------------

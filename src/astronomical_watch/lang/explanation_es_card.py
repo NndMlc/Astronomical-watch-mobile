@@ -3,6 +3,12 @@ Reloj Astronómico — Explicación
 
 El Reloj Astronómico es un reloj que muestra el tiempo basado en los ciclos astronómicos reales, en lugar del tiempo convencional de calendario. Este reloj está diseñado para cualquier persona que desee comprender y seguir el tiempo según el movimiento de la Tierra alrededor del Sol, sin las restricciones convencionales como los calendarios, las zonas horarias y el tiempo local.
 
+¿Qué es Dies?
+------------
+Dies es una palabra de origen latino que significa "día". A diferencia del día clásico que es de carácter local — donde cada zona horaria tiene un comienzo del día particular cuando el Sol está en el lado opuesto del planeta — **Dies es de carácter global**. Dies comienza cuando es mediodía sobre el Mar de Bering, que representa la división natural entre el hemisferio oriental y occidental. Dies es **el mismo para todos en el planeta en el mismo instante**.
+
+**MiliDies** es la división de Dies en mil partes. El cambio de miliDies de cero a mil sigue el movimiento del Sol de este a oeste hasta que regresa al mismo punto sobre el meridiano de referencia. El primer Dies (Dies 0) comienza a contarse desde el momento del **equinoccio de primavera**, que marca el comienzo astronómico del nuevo año.
+
 ¿Por qué el año comienza en el equinoccio de primavera?
 -------------------------------------------------
 A diferencia del calendario estándar, que comienza el año el 1 de enero, el año astronómico en este reloj comienza en el momento en que el Sol cruza el ecuador celeste — el equinoccio de primavera. Este momento es un punto cero natural para los ciclos astronómicos, marcando el inicio de un nuevo "círculo solar" y reflejando mejor los cambios reales en la duración de los días y las noches. Es el período en que el día y la noche son aproximadamente iguales, lo que lo convierte en un punto de partida universal para medir el tiempo.
@@ -51,6 +57,8 @@ El tiempo estándar es producto de acuerdos históricos, geográficos y sociales
 Uso práctico
 ------------------
 El Reloj Astronómico es útil para científicos, astrónomos, educadores, amantes de la naturaleza y para cualquiera que desee alinearse con los ritmos universales de la Tierra. Brinda una sensación de conexión con el planeta y los eventos cósmicos, facilita la comprensión global del tiempo sin las confusas diferencias locales y anima a los usuarios a pensar en el tiempo como un fenómeno universal y natural.
+
+El mayor beneficio del Reloj Astronómico es su **globalidad**. Dado que en cada momento es el mismo para todos en el planeta, puede ayudar a coordinar diversos eventos tanto en internet como fuera de él. Varias acciones y eventos que requieren sincronización pueden coordinarse mediante el Reloj Astronómico — ya sean conferencias internacionales, eventos virtuales, lanzamientos de proyectos globales o coordinación de investigaciones científicas. En lugar de convertir zonas horarias y calcular diferencias locales, el Reloj Astronómico proporciona un sistema de tiempo único, claro y universal que todos pueden usar simultáneamente.
 
 ¿Por qué seguir el tiempo de forma astronómica?
 ---------------------------------

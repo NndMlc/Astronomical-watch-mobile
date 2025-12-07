@@ -3,6 +3,12 @@ Saa ya Astronomia — Maelezo
 
 Saa ya Astronomia ni saa inayoonyesha wakati kulingana na mizunguko halisi ya anga, badala ya wakati wa kawaida wa kalenda. Saa hii imebuniwa kwa yeyote anayependa kuelewa na kufuatilia wakati kulingana na mwendo wa Dunia kuzunguka Jua, bila vikwazo vya kalenda, maeneo ya saa, na muda wa eneo.
 
+Dies ni nini?
+------------
+Dies ni neno la asili ya Kilatini linalomanisha "siku". Tofauti na siku ya kawaida ambayo ni ya eneo — ambapo kila eneo la saa lina mwanzo wake wa siku pale ambapo Jua liko upande wa pili wa sayari — **Dies ni ya kimataifa**. Dies huanza pale ambapo ni adhuhuri juu ya Bahari ya Bering, ambayo inawakilisha mgawanyo wa asili kati ya nusu ya mashariki na magharibi ya dunia. Dies ni **sawa kwa kila mtu duniani kwa wakati mmoja**.
+
+**miliDies** ni mgawanyiko wa Dies katika sehemu elfu. Mabadiliko ya miliDies kutoka sifuri hadi elfu yanafuatilia mwendo wa Jua kutoka mashariki hadi magharibi mpaka inarudi kwenye sehemu ile ile juu ya meridiani ya rejea. Dies ya kwanza (Dies 0) huanza kuhesabiwa kutoka wakati wa **usawa wa masika**, ambayo inaashiria mwanzo wa kianga wa mwaka mpya.
+
 Kwa nini mwaka unaanza katika usawa wa masika?
 -------------------------------------------------
 Tofauti na kalenda ya kawaida ambayo mwaka unaanza Januari 1, mwaka wa astronomia kwenye saa hii huanza pale ambapo Jua linavuka ikweta ya anga — usawa wa masika. Wakati huu ni nukta ya asili ya kuanzia kwa mizunguko ya anga, unaashiria mwanzo wa "mzunguko mpya wa jua" na unaakisi vyema mabadiliko halisi ya urefu wa mchana na usiku. Ni kipindi ambacho mchana na usiku ni karibu sawa, hivyo ni nukta ya kuanzia ya kimataifa kwa kipimo cha wakati.
@@ -51,6 +57,8 @@ Wakati wa kawaida ni matokeo ya makubaliano ya kihistoria, kijiografia na kijami
 Matumizi ya kivitendo
 ------------------
 Saa ya Astronomia ni muhimu kwa wanasayansi, wanaastronomia, walimu, wapenda asili, na yeyote anayetaka kuendana na midundo ya kimataifa ya Dunia. Inatoa hisia ya muunganiko na sayari na matukio ya anga, inarahisisha uelewa wa muda wa kimataifa bila tofauti za eneo zilizochanganya, na inahamasisha watumiaji kufikiria muda kama jambo la asili na la kimataifa.
+
+Faida kubwa zaidi ya Saa ya Astronomia ni **kimataifa chake**. Kwa kuwa ni sawa kwa kila mtu duniani kila wakati, inaweza kusaidia kuratibu matukio mbalimbali, ikiwa ni pamoja na mtandao au nje yake. Shughuli na matukio mbalimbali yanayohitaji uratibu yanaweza kusawazishwa kwa kutumia Saa ya Astronomia — iwe ni mikutano ya kimataifa, matukio ya kimtandao, uzinduzi wa miradi ya kimataifa au uratibu wa utafiti wa kisayansi. Badala ya kubadilisha maeneo ya saa na kuhesabu tofauti za eneo, Saa ya Astronomia inatoa mfumo mmoja, wazi na wa kimataifa wa wakati ambao wote wanaweza kutumia kwa wakati mmoja.
 
 Kwa nini ufuatilie muda kwa mtazamo wa anga?
 ---------------------------------

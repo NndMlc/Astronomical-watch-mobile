@@ -5,13 +5,17 @@ License: Astronomical Watch Core License v1.0 (NO MODIFICATION). See LICENSE.COR
 """
 from __future__ import annotations
 from datetime import datetime, timedelta, timezone
-from .solar import to_julian_date, apparent_solar_longitude
+from .solar import apparent_solar_longitude
+from .timebase import datetime_to_jd
 
 def compute_vernal_equinox(year: int, max_iter: int = 10, tol_seconds: float = 60.0) -> datetime:
     guess = datetime(year, 3, 20, 12, 0, 0, tzinfo=timezone.utc)
     def f(dt: datetime) -> float:
-        lam = apparent_solar_longitude(to_julian_date(dt))
-        diff = ((lam + 180) % 360) - 180
+        lam = apparent_solar_longitude(datetime_to_jd(dt))
+        # lam je u radijanima, konvertuj u stepene za lakše računanje
+        lam_deg = lam * 180.0 / 3.14159265359
+        # Vraća razliku od 0° (prolećna ravnodnevnica)
+        diff = ((lam_deg + 180) % 360) - 180
         return diff
     dt0 = guess
     step = timedelta(hours=6)
@@ -40,4 +44,3 @@ def compute_vernal_equinox(year: int, max_iter: int = 10, tol_seconds: float = 6
             return new_current
         current = new_current
     return current
-"""

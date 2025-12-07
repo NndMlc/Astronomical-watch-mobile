@@ -3,6 +3,12 @@ Astronomical Watch — Explanation
 
 Astronomical Watch is a clock that displays time based on actual astronomical cycles, instead of the conventional calendar time. This watch is designed for anyone who wants to understand and follow time according to the Earth's movement around the Sun, free of conventional constraints like calendars, time zones, and local time.
 
+What is Dies?
+------------
+Dies is a Latin word meaning "day". Unlike the conventional day, which is local in nature — where each time zone has its own day start when the Sun is on the opposite side of the planet — **Dies is global in nature**. Dies begins when it is noon over the Bering Sea, which represents the natural division between the eastern and western hemispheres. Dies is **the same for everyone on the planet at the same moment**.
+
+**MiliDies** is the division of Dies into a thousand parts. The change of miliDies from zero to a thousand tracks the movement of the Sun from east to west until it returns to the same point above the reference meridian. The first Dies (Dies 0) begins counting from the moment of the **vernal equinox**, which marks the astronomical start of the new year.
+
 Why does the year begin at the vernal equinox?
 -------------------------------------------------
 Unlike the standard calendar which starts the year on January 1st, the astronomical year on this watch begins at the moment when the Sun crosses the celestial equator — the vernal equinox. This moment is a natural zero point for astronomical cycles, marking the start of a new "solar circle" and best reflecting real changes in the length of days and nights. It is the period when day and night are approximately equal, making it a universal starting point for measuring time.
@@ -51,6 +57,8 @@ Standard time is a product of historical, geographical, and social agreements. T
 Practical use
 ------------------
 Astronomical Watch is useful for scientists, astronomers, educators, nature lovers, and anyone who wants to align with the Earth's universal rhythms. It provides a sense of connection to the planet and cosmic events, enables easier global understanding of time without confusing local differences, and encourages users to think of time as a universal, natural phenomenon.
+
+The greatest benefit of Astronomical Watch is its **globality**. Since it is the same for everyone on the planet at any moment, it can help coordinate various events, both online and offline. Various actions and events requiring synchronization can be coordinated using Astronomical Watch — whether international conferences, virtual events, global project launches, or scientific research coordination. Instead of converting time zones and calculating local differences, Astronomical Watch provides one clear and universal time system that everyone can use simultaneously.
 
 Why track time astronomically?
 ---------------------------------

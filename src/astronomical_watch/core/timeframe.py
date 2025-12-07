@@ -1,6 +1,6 @@
 """
 timeframe.py (Core)
-Convert UTC datetime into (day_index, milli_day) relative to vernal equinox frame.
+Convert UTC datetime into (dies, miliDies) relative to vernal equinox frame.
 License: Astronomical Watch Core License v1.0 (NO MODIFICATION). See LICENSE.CORE
 """
 from __future__ import annotations
@@ -39,13 +39,12 @@ def astronomical_time(dt: datetime) -> tuple[int, int]:
     if dt < day0:
         return (0, 0)
     seconds_since_day0 = (dt - day0).total_seconds()
-    day_index = int(seconds_since_day0 // DAY_SECONDS)
-    current_day_start = day0 + timedelta(days=day_index)
+    dies = int(seconds_since_day0 // DAY_SECONDS)
+    current_day_start = day0 + timedelta(days=dies)
     intra = (dt - current_day_start).total_seconds()
     if intra < 0:
         intra = 0
-    milli_day = int((intra / DAY_SECONDS) * 1000)
-    if milli_day > 999:
-        milli_day = 999
-    return day_index, milli_day
-"""
+    miliDies = int((intra / DAY_SECONDS) * 1000)
+    if miliDies > 999:
+        miliDies = 999
+    return dies, miliDies

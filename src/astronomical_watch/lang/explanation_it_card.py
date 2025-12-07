@@ -3,6 +3,12 @@ Orologio Astronomico — Spiegazione
 
 L'Orologio Astronomico è un orologio che mostra il tempo basato sui cicli astronomici reali, anziché sul tempo convenzionale del calendario. Questo orologio è pensato per chiunque desideri comprendere e seguire il tempo secondo il movimento della Terra attorno al Sole, senza le restrizioni convenzionali di calendari, fusi orari e tempo locale.
 
+Cos'è Dies?
+------------
+Dies è una parola di origine latina che significa "giorno". A differenza del giorno classico che è di carattere locale — dove ogni fuso orario ha un particolare inizio del giorno quando il Sole è dal lato opposto del pianeta — **Dies è di carattere globale**. Dies inizia quando è mezzogiorno sopra il Mare di Bering, che rappresenta la divisione naturale tra l'emisfero orientale e occidentale. Dies è **uguale per tutti sul pianeta nello stesso istante**.
+
+**MiliDies** è la suddivisione di Dies in mille parti. Il cambiamento di miliDies da zero a mille segue il movimento del Sole da est a ovest finché non ritorna allo stesso punto sopra il meridiano di riferimento. Il primo Dies (Dies 0) inizia ad essere contato dal momento dell'**equinozio di primavera**, che segna l'inizio astronomico del nuovo anno.
+
 Perché l'anno inizia con l'equinozio di primavera?
 -------------------------------------------------
 A differenza del calendario standard, che inizia l'anno il 1° gennaio, l'anno astronomico di questo orologio comincia nel momento in cui il Sole attraversa l'equatore celeste — l'equinozio di primavera. Questo momento rappresenta un punto zero naturale per i cicli astronomici, segnando l'inizio di un nuovo "circolo solare" e riflettendo al meglio i reali cambiamenti nella durata del giorno e della notte. È il periodo in cui il giorno e la notte sono approssimativamente uguali, rendendolo un punto di partenza universale per la misurazione del tempo.
@@ -51,6 +57,8 @@ Il tempo standard è il prodotto di accordi storici, geografici e sociali. I fus
 Uso pratico
 ------------------
 L'Orologio Astronomico è utile per scienziati, astronomi, educatori, amanti della natura e per chiunque desideri allinearsi con i ritmi universali della Terra. Offre un senso di connessione con il pianeta e gli eventi cosmici, facilita la comprensione globale del tempo senza le confuse differenze locali e incoraggia gli utenti a pensare al tempo come a un fenomeno universale e naturale.
+
+Il maggior vantaggio dell'Orologio Astronomico è la sua **globalità**. Poiché è lo stesso per tutti sul pianeta in ogni momento, può aiutare a coordinare vari eventi sia su internet che al di fuori. Diverse azioni ed eventi che richiedono sincronizzazione possono essere coordinati tramite l'Orologio Astronomico — che si tratti di conferenze internazionali, eventi virtuali, lancio di progetti globali o coordinamento di ricerche scientifiche. Invece di convertire fusi orari e calcolare differenze locali, l'Orologio Astronomico fornisce un unico sistema di tempo chiaro e universale che tutti possono utilizzare simultaneamente.
 
 Perché seguire il tempo in modo astronomico?
 ---------------------------------

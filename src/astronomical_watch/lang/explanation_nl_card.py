@@ -3,6 +3,12 @@ Astronomisch Horloge — Uitleg
 
 Het Astronomisch Horloge is een klok die tijd weergeeft op basis van echte astronomische cycli, in plaats van de conventionele kalender tijd. Dit horloge is ontworpen voor iedereen die tijd wil begrijpen en volgen volgens de beweging van de aarde rond de zon, zonder de traditionele beperkingen van kalenders, tijdzones en lokale tijd.
 
+Wat is Dies?
+------------
+Dies is een woord van Latijnse oorsprong dat "dag" betekent. In tegenstelling tot de klassieke dag die lokaal van karakter is — waarbij elke tijdzone een apart begin van de dag heeft wanneer de zon aan de andere kant van de planeet staat — is **Dies van wereldwijde aard**. Dies begint wanneer het middag is boven de Beringzee, die de natuurlijke scheiding vormt tussen het oostelijk en westelijk halfrond. Dies is voor iedereen op de planeet **hetzelfde op hetzelfde moment**.
+
+**MiliDies** is de verdeling van Dies in duizend delen. De verandering van miliDies van nul tot duizend volgt de beweging van de zon van oost naar west totdat deze terugkeert naar hetzelfde punt boven de referentiemeridiaan. De eerste Dies (Dies 0) begint te tellen vanaf het moment van de **lente-equinox**, die het astronomische begin van het nieuwe jaar markeert.
+
 Waarom begint het jaar met de lente-equinox?
 -------------------------------------------------
 In tegenstelling tot de standaardkalender, waar het jaar op 1 januari begint, start het astronomische jaar op dit horloge wanneer de zon de hemel-equator passeert — bij de lente-equinox. Dit moment is het natuurlijke nulpunt voor astronomische cycli, markeert het begin van een nieuwe "zonnecyclus" en weerspiegelt het beste de echte veranderingen in duur van dag en nacht. Dit is de periode waarin dag en nacht bijna gelijk zijn, waardoor het een universeel startpunt is voor tijdmeting.
@@ -51,6 +57,8 @@ Standaardtijd is het resultaat van historische, geografische en sociale afsprake
 Praktisch gebruik
 ------------------
 Het Astronomisch Horloge is nuttig voor wetenschappers, astronomen, docenten, natuurliefhebbers en iedereen die zich wil afstemmen op de universele ritmes van de aarde. Het geeft een gevoel van verbondenheid met de planeet en kosmische gebeurtenissen, vergemakkelijkt wereldwijd begrip van tijd zonder verwarrende lokale verschillen, en moedigt gebruikers aan tijd te zien als een universeel, natuurlijk fenomeen.
+
+Het grootste voordeel van het Astronomisch Horloge is zijn **wereldwijde karakter**. Omdat het op elk moment voor iedereen op de planeet hetzelfde is, kan het helpen verschillende gebeurtenissen te coördineren, zowel op internet als daarbuiten. Verschillende acties en evenementen die synchronisatie vereisen, kunnen worden gecoördineerd met behulp van het Astronomisch Horloge — of het nu gaat om internationale conferenties, virtuele evenementen, de lancering van wereldwijde projecten of de coördinatie van wetenschappelijk onderzoek. In plaats van tijdzones te converteren en lokale verschillen te berekenen, biedt het Astronomisch Horloge één duidelijk en universeel tijdsysteem dat iedereen tegelijkertijd kan gebruiken.
 
 Waarom tijd astronomisch volgen?
 ---------------------------------
