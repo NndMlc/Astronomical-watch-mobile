@@ -1,5 +1,39 @@
 # Build Instructions for Astronomical Watch Mobile
 
+## Quick Start (Development in Codespaces/Dev Container)
+
+### Run with Virtual Display (Xvfb)
+
+**Easiest way to test the app without building for mobile:**
+
+```bash
+./launch_xvfb.sh
+```
+
+This script:
+- Starts Xvfb virtual X server on display :99
+- Shows current astronomical time (dies.miliDies)
+- Launches Kivy app in virtual display
+- Cleans up on exit (Ctrl+C)
+
+**Manual launch:**
+```bash
+# Start Xvfb
+Xvfb :99 -screen 0 1024x768x24 &
+export DISPLAY=:99
+
+# Run app
+poetry run python main.py
+```
+
+**View logs:**
+```bash
+# Kivy logs location
+cat ~/.kivy/logs/kivy_*.txt
+```
+
+---
+
 ## Prerequisites
 
 ### For Android Build
