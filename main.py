@@ -1,9 +1,13 @@
 from kivy.app import App
-from src.astronomical_watch.ui.main_screen import get_main_screen
+from kivy.uix.screenmanager import ScreenManager
+from astronomical_watch.ui.main_screen import WidgetMode, NormalMode
 
 class AstronomicalWatchApp(App):
     def build(self):
-        return get_main_screen()
+        sm = ScreenManager()
+        sm.add_widget(WidgetMode(name="widget"))
+        sm.add_widget(NormalMode(name="normal"))
+        return sm
 
 if __name__ == "__main__":
     AstronomicalWatchApp().run()
