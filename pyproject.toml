@@ -1,16 +1,24 @@
-[build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
-
-[project]
-name = "astronomical_watch_mobile"
+[tool.poetry]
+name = "astronomical-watch-mobile"
 version = "0.1.0"
 description = "Astronomical Watch mobile app (Android/iOS, Kivy)"
-authors = [{name = "Tvoje Ime", email = "tvoj@email.com"}]
+authors = ["NndMlc <info@astronomicalwatch.org>"]
 readme = "README.md"
-requires-python = ">=3.10"
-dependencies = [
-    "kivy>=2.3.0",
-    "kivy-garden",
-    # Dodaj ostale zavisnosti (npr. matplotlib, requests...) prema potrebi
-]
+packages = [{include = "astronomical_watch", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+kivy = "^2.3.0"
+kivy-garden = "^0.1.5"
+requests = "^2.31.0"
+certifi = "^2023.0.0"
+charset-normalizer = "^3.0.0"
+idna = "^3.4"
+urllib3 = "^2.0.0"
+
+[tool.poetry.group.dev.dependencies]
+buildozer = {version = "^1.5.0", optional = true, markers = "sys_platform == 'linux'"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

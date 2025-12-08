@@ -1,0 +1,74 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "🚀 Run Kivy App",
+      "type": "shell",
+      "command": "poetry run python main.py",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "focus": true
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "🔨 Build Android Debug APK",
+      "type": "shell",
+      "command": "buildozer android debug",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "📱 Deploy to Android Device",
+      "type": "shell",
+      "command": "buildozer android debug deploy run",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "🧹 Clean Build Cache",
+      "type": "shell",
+      "command": "buildozer android clean",
+      "problemMatcher": []
+    },
+    {
+      "label": "📦 Build Android Release APK",
+      "type": "shell",
+      "command": "buildozer android release",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "🔧 Setup VNC Server",
+      "type": "shell",
+      "command": "sudo apt-get install -y x11vnc xvfb && Xvfb :99 -screen 0 1280x720x24 & export DISPLAY=:99 && x11vnc -display :99 -forever -nopw &",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always"
+      }
+    },
+    {
+      "label": "🔄 Sync from Desktop Repo",
+      "type": "shell",
+      "command": ".github/sync_to_mobile.sh",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always"
+      }
+    }
+  ]
+}
