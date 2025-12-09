@@ -1,13 +1,13 @@
 import os
-from kivy.config import ConfigParser
+import configparser
 
 CONFIG_FILENAME = os.path.expanduser("~/.astronomical_watch_config.ini")
 CONFIG_SECTION = "General"
 CONFIG_KEY = "language"
-DEFAULT_LANGUAGE = "en"
+DEFAULT_LANGUAGE = "English"
 
 def save_language(lang_code):
-    config = ConfigParser()
+    config = configparser.ConfigParser()
     config.read(CONFIG_FILENAME)
     if not config.has_section(CONFIG_SECTION):
         config.add_section(CONFIG_SECTION)
@@ -16,7 +16,7 @@ def save_language(lang_code):
         config.write(f)
 
 def load_language():
-    config = ConfigParser()
+    config = configparser.ConfigParser()
     config.read(CONFIG_FILENAME)
     if config.has_section(CONFIG_SECTION) and config.has_option(CONFIG_SECTION, CONFIG_KEY):
         return config.get(CONFIG_SECTION, CONFIG_KEY)

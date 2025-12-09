@@ -1,0 +1,22 @@
+<!-- Widget Provider -->
+<receiver android:name="org.astronomicalwatch.astronomical_watch.AstroWidgetProvider"
+         android:exported="true">
+    <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+    </intent-filter>
+    <meta-data android:name="android.appwidget.provider"
+               android:resource="@xml/widget_info" />
+</receiver>
+
+<!-- Auto-start receiver for widget service -->
+<receiver android:name="org.astronomicalwatch.astronomical_watch.WidgetAutoStart"
+         android:exported="true">
+    <intent-filter>
+        <!-- When first widget is added -->
+        <action android:name="android.appwidget.action.APPWIDGET_ENABLED" />
+        <!-- When device boots -->
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+        <!-- When app is updated -->
+        <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+    </intent-filter>
+</receiver>

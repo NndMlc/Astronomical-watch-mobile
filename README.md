@@ -8,6 +8,7 @@ A mobile phone application that tracks time based on real astronomical phenomena
 - 🌌 **Dynamic Sky Theme**: Background gradients change based on solar altitude (day/night/twilight)
 - 🌐 **28 Languages**: Full internationalization (English, Español, 中文, العربية, and 24 more)
 - 📱 **Widget & Normal Modes**: Minimalist widget or detailed full-screen view
+- 🏠 **Android Home Screen Widget**: Shows Dies.miliDies on your home screen (tap to open app)
 - 🔄 **Auto-updating**: Refreshes every 0.2 seconds with smooth progress bars
 
 ## 🚀 Quick Start

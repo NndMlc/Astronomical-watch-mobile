@@ -36,11 +36,29 @@ def astronomical_time(dt: datetime) -> tuple[int, int]:
         eq = next_eq
         next_eq = compute_vernal_equinox(eq.year + 1)
     day0 = first_day_start_after_equinox(eq)
+    
+    # Special handling for Dies 0 (partial day from equinox to first noon)
     if dt < day0:
+        # Dies 0: calculate miliDies relative to equinox, not day0
+        seconds_since_equinox = (dt - eq).total_seconds()
+        # Scale to day length between equinox and first noon
+        day0_length = (day0 - eq).total_seconds()
+        if day0_length > 0:
+            fraction = seconds_since_equinox / day0_length
+            miliDies = int(fraction * 1000)
+            if miliDies > 999:
+                miliDies = 999
+            if miliDies < 0:
+                miliDies = 0
+            return (0, miliDies)
         return (0, 0)
+    
+    # Dies 1, 2, 3... (full 24h days)
+    # Dies starts at 1 because day0 is the first noon after equinox
     seconds_since_day0 = (dt - day0).total_seconds()
-    dies = int(seconds_since_day0 // DAY_SECONDS)
-    current_day_start = day0 + timedelta(days=dies)
+    days_after_day0 = int(seconds_since_day0 // DAY_SECONDS)
+    dies = days_after_day0 + 1  # +1 because Dies 0 already passed
+    current_day_start = day0 + timedelta(days=days_after_day0)
     intra = (dt - current_day_start).total_seconds()
     if intra < 0:
         intra = 0
