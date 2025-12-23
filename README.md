@@ -10,6 +10,7 @@ A mobile phone application that tracks time based on real astronomical phenomena
 - 📱 **Widget & Normal Modes**: Minimalist widget or detailed full-screen view
 - 🏠 **Android Home Screen Widget**: Shows Dies.miliDies on your home screen (tap to open app)
 - 🔄 **Auto-updating**: Refreshes every 0.2 seconds with smooth progress bars
+- ⏱️ **NTP Time Sync**: Automatic synchronization with internet time servers for precise timekeeping
 
 ## 🚀 Quick Start
 
@@ -55,6 +56,7 @@ kivy-ios build astronomical_watch kivy
 - **[DEVELOPMENT.md](DEVELOPMENT.md)** - Development workflows and preview options
 - **[SPEC.md](SPEC.md)** - Astronomical time system specification
 - **[UI_REFACTOR.md](UI_REFACTOR.md)** - Recent UI compatibility fixes
+- **[docs/NTP_SYNC.md](docs/NTP_SYNC.md)** - NTP time synchronization system
 - **[.github/copilot-instructions.md](.github/copilot-instructions.md)** - AI agent development guide
 
 ## 🎨 Screenshots

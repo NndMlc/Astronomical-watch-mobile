@@ -12,6 +12,7 @@ from kivy.core.window import Window
 from astronomical_watch.lang.lang_config import save_language, load_language
 from astronomical_watch.lang.translations import tr
 from astronomical_watch.core.timeframe import astronomical_time
+from astronomical_watch.net.ntp_sync import get_ntp_sync
 
 # Android widget support (safe to import on all platforms)
 try:
@@ -36,6 +37,10 @@ class WidgetMode(Screen):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
+        
+        # Initialize NTP sync (pozadinski thread sa ažuriranjem svakih 1 sat)
+        self.ntp_sync = get_ntp_sync()
+        self.ntp_sync.start_background_sync(interval_seconds=3600)
         
         # Main layout with transparent background
         self.layout = BoxLayout(orientation='vertical', padding=0, spacing=0)
@@ -126,7 +131,8 @@ class WidgetMode(Screen):
 
     def update(self, dt=0):
         from datetime import datetime, timezone
-        now = datetime.now(timezone.utc)
+        # Koristi NTP-korigovano vreme umesto sistemskog
+        now = self.ntp_sync.get_corrected_time()
         dies, milidies = astronomical_time(now)
         
         self.dies = dies
@@ -205,6 +211,10 @@ class NormalMode(Screen):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
+        
+        # Initialize NTP sync (koristi istu globalnu instancu)
+        self.ntp_sync = get_ntp_sync()
+        
         self.main_layout = BoxLayout(orientation='vertical', padding=20, spacing=10)
 
         # Top bar: back button, title, language selector
@@ -336,7 +346,8 @@ class NormalMode(Screen):
     def update(self, dt=0):
         """Update time display"""
         from datetime import datetime, timezone
-        now = datetime.now(timezone.utc)
+        # Koristi NTP-korigovano vreme
+        now = self.ntp_sync.get_corrected_time()
         dies, milidies = astronomical_time(now)
         
         self.dies = dies

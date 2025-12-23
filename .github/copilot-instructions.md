@@ -6,6 +6,8 @@ This is a mobile astronomical timekeeping application (Python/Kivy) that tracks 
 
 **Key Concept**: Unlike standard calendars, this astronomical frame resets annually at each vernal equinox, expressing time in "dies" (days since equinox) and "milidies" (1/1000th of a day = 86.4 seconds).
 
+**Platform Support**: Android home screen widget with background service, iOS (via kivy-ios), desktop development via VNC/Xvfb in Codespaces.
+
 ## Critical: Dual License Architecture
 
 **IMMUTABLE CORE (NO MODIFICATION LICENSE)**: Files under `src/astronomical_watch/core/` are frozen and cannot be modified:
@@ -48,11 +50,27 @@ Kivy-based mobile interface:
 - **sky_theme.py**: Gradient backgrounds tied to time of day
 - Updates every 0.2s: `astronomical_time(now)` returns current (dies, milidies)
 
+### Android Widget System
+Home screen widget with background service (see [docs/ANDROID_WIDGET.md](../docs/ANDROID_WIDGET.md)):
+- **widget_provider.py**: Python controller using Pyjnius (RemoteViews API)
+- **service/widget_service.py**: Foreground service updates every 60s
+- **AstroWidgetProvider.java**: Java AppWidgetProvider bridge
+- **Auto-starts** on device boot via BOOT_COMPLETED receiver
+- **Multiple instances** supported, survives app closure
+
 ### Internationalization (`src/astronomical_watch/lang/`)
-20 languages supported via `translations.py`:
-- Language cards: `explanation_*_card.py` (20 files, one per language)
+28 languages supported via `translations.py`:
+- Language cards: `explanation_*_card.py` (28 files, one per language)
 - Usage: `tr("key", lang_code)` for runtime translation lookup
 - Config: `lang_config.py` loads/saves user preference
+
+### NTP Time Synchronization (`net/ntp_sync.py`)
+Automatic time correction with internet time servers (see [docs/NTP_SYNC.md](../docs/NTP_SYNC.md)):
+- **NTPSync class**: Fetches accurate UTC time from pool.ntp.org, time.google.com, etc.
+- **Offset caching**: 1-hour TTL, thread-safe access
+- **Background sync**: Automatic updates every 60 minutes
+- **Graceful fallback**: Uses system time if NTP unavailable
+- **Integration**: `get_ntp_sync()` in `main_screen.py` replaces `datetime.now()` with corrected time
 
 ### CLI (`cli/awatch.py`)
 Simple MIT-licensed tool: prints current astronomical time as `DDD.mmm` format.
@@ -60,13 +78,56 @@ Simple MIT-licensed tool: prints current astronomical time as `DDD.mmm` format.
 ## Development Workflows
 
 ### Running the App
-```bash
-# Mobile app (Kivy)
-python main.py
 
-# CLI tool
-python cli/awatch.py
+**Desktop/Codespaces (Recommended):**
+```bash
+# Option 1: VNC viewer in browser (best for Codespaces)
+./launch_vnc.sh
+# Then open Simple Browser: http://localhost:6080/vnc.html
+
+# Option 2: Xvfb (headless, logs only)
+./launch_xvfb.sh
+
+# Option 3: Direct run (requires X11 display)
+poetry run python main.py
+```
+
+**VS Code Tasks (Ctrl+Shift+P → "Tasks: Run Task"):**
+- `🚀 Run Kivy App` - Default build task (poetry run python main.py)
+- `🔨 Build Android Debug APK` - buildozer android debug
+- `📱 Deploy to Android Device` - buildozer android debug deploy run
+- `🧹 Clean Build Cache` - buildozer android clean
+- `🔧 Setup VNC Server` - Install and start VNC for GUI preview
+
+**CLI tool:**
+```bash
+poetry run python cli/awatch.py
 # Output: 042.573 (day 42, milidan 573)
+```
+
+### Building for Mobile
+
+**Android (requires Linux, uses Buildozer):**
+```bash
+# Clean build (recommended after spec changes)
+buildozer android clean
+rm -rf .buildozer  # Full reset if needed
+
+# Debug build
+buildozer android debug  # Output: bin/*.apk
+
+# Deploy to connected device
+buildozer android debug deploy run
+```
+
+**Configuration:** `buildozer.spec` defines app metadata, requirements, permissions
+- Key permission: `BIND_APPWIDGET` for home screen widget
+- Requirements: `python3==3.10,kivy==2.3.1,requests,pyjnius`
+- Android resources: `android_resources/` (AndroidManifest, widget layouts)
+
+**iOS (macOS only):**
+```bash
+kivy-ios build astronomical_watch kivy
 ```
 
 ### Generating VSOP87 Coefficients
@@ -83,9 +144,12 @@ python src/astronomical_watch/scripts/generate_vsop87.py --threshold 1e-6
 - `ASTRON_CACHE_DIR`: Cache directory override (default: `~/.astronomical_watch`)
 
 ### Python Environment
-- Requires Python ≥3.10
-- Main dependency: `kivy>=2.3.0`
-- Use dev container (Ubuntu 24.04.3 LTS) for consistent environment
+- **Package manager**: Poetry (NOT pip directly)
+- **Install dependencies**: `poetry install` (creates virtualenv automatically)
+- **Run commands**: Prefix with `poetry run` (e.g., `poetry run python main.py`)
+- **Python version**: ≥3.10 (specified in pyproject.toml)
+- **Main dependencies**: kivy>=2.3.0, requests, pyjnius (Android only)
+- **Dev container**: Ubuntu 24.04.3 LTS with Xvfb, noVNC, buildozer pre-configured
 
 ## Project-Specific Patterns
 
